@@ -1,0 +1,14 @@
+{
+  "elapsed_s": 502.859618872,
+  "get_errors": 0,
+  "get_node": 3,
+  "max_lag_versions": 0,
+  "pairs": 10007,
+  "put_errors": 0,
+  "put_node": 1,
+  "serializable": false,
+  "stale": 0,
+  "stale_rate": 0,
+  "sys": "etcd",
+  "workers": 8
+}

@@ -1,0 +1,14 @@
+{
+  "elapsed_s": 2.06458582,
+  "get_errors": 0,
+  "get_node": 3,
+  "max_lag_versions": 4,
+  "pairs": 10007,
+  "put_errors": 0,
+  "put_node": 1,
+  "serializable": false,
+  "stale": 183,
+  "stale_rate": 0.01828719896072749,
+  "sys": "cassandra",
+  "workers": 8
+}

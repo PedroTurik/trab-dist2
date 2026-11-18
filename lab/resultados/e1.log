@@ -1,0 +1,402 @@
+[20:40:10] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container n3 Creating 
+ Container n2 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Created 
+ Container n3 Created 
+ Container n1 Starting 
+ Container n3 Starting 
+ Container gerador Starting 
+ Container n2 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+load: 10000 chaves, 0 falhas
+[20:40:12] cluster etcd pronto
+[20:40:12] E1 etcd rep1 N=1
+{"threads":1,"throughput_ok":1583.8222222222223,"p99":1.762,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":3.521316539616253}
+[20:42:17] E1 etcd rep1 N=2
+{"threads":2,"throughput_ok":2753.4,"p99":2.215,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":5.164513311411282}
+[20:44:22] E1 etcd rep1 N=4
+{"threads":4,"throughput_ok":4358.488888888889,"p99":2.976,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":6.110990720309301}
+[20:46:27] E1 etcd rep1 N=8
+{"threads":8,"throughput_ok":5500.888888888889,"p99":4.383,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":7.3372768961097075}
+[20:48:33] E1 etcd rep1 N=16
+{"threads":16,"throughput_ok":7227.422222222222,"p99":5.87,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":8.947290317608157}
+[20:50:38] E1 etcd rep1 N=32
+{"threads":32,"throughput_ok":10106.422222222222,"p99":7.377,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":10.05597745035234}
+[20:52:44] E1 etcd rep1 N=64
+{"threads":64,"throughput_ok":15440.766666666666,"p99":8.976,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":10.97658739032916}
+[20:54:50] E1 etcd rep1 N=128
+{"threads":128,"throughput_ok":24760.277777777777,"p99":10.633,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":12.475605818130301}
+[20:56:56] E1 etcd rep1 N=256
+{"threads":256,"throughput_ok":40024.51111111111,"p99":12.856,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":13.404209880086198}
+[20:59:03] E1 etcd rep1 N=512
+{"threads":512,"throughput_ok":69824.16666666667,"p99":14.572,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":15.598230326334102}
+[21:01:12] E1 etcd rep1 N=1024
+{"threads":1024,"throughput_ok":114546.88888888889,"p99":17.858,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":25.14097213989341}
+[21:03:24] E1 etcd rep1 N=2048
+{"threads":2048,"throughput_ok":155787.67777777778,"p99":27.335,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":32.98466345999803}
+[21:05:38] E1 etcd rep1 N=4096
+{"threads":4096,"throughput_ok":183854.15555555557,"p99":40.546,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":37.15892804286532}
+[21:07:54] E1 etcd rep1 N=8192
+{"threads":8192,"throughput_ok":196619.7888888889,"p99":70.057,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":43.53374634470033}
+[21:10:11] E1 etcd rep1 N=16384
+{"threads":16384,"throughput_ok":195233.85555555555,"p99":141.626,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":43.311598873798985}
+[21:12:39] subindo cluster etcd
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container n3 Creating 
+ Container gerador Created 
+ Container n2 Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container n3 Starting 
+ Container n2 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+load: 10000 chaves, 0 falhas
+[21:12:44] cluster etcd pronto
+[21:12:44] E1 etcd rep2 N=1
+{"threads":1,"throughput_ok":1651.0111111111112,"p99":1.75,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.012793888779921}
+[21:14:49] E1 etcd rep2 N=2
+{"threads":2,"throughput_ok":2638.188888888889,"p99":2.195,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":5.407692137772185}
+[21:16:54] E1 etcd rep2 N=4
+{"threads":4,"throughput_ok":4376.633333333333,"p99":2.975,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":6.272756009391352}
+[21:19:00] E1 etcd rep2 N=8
+{"threads":8,"throughput_ok":5524.022222222222,"p99":4.371,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":7.598089092448298}
+[21:21:05] E1 etcd rep2 N=16
+{"threads":16,"throughput_ok":7205.211111111111,"p99":5.866,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":8.895999371336389}
+[21:23:11] E1 etcd rep2 N=32
+{"threads":32,"throughput_ok":10061.8,"p99":7.4,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":10.105769518247277}
+[21:25:16] E1 etcd rep2 N=64
+{"threads":64,"throughput_ok":15382.3,"p99":8.997,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":11.108250679530114}
+[21:27:22] E1 etcd rep2 N=128
+{"threads":128,"throughput_ok":24379.566666666666,"p99":10.791,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":12.505006641278861}
+[21:29:28] E1 etcd rep2 N=256
+{"threads":256,"throughput_ok":39756.9,"p99":12.957,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":13.58175692580454}
+[21:31:36] E1 etcd rep2 N=512
+{"threads":512,"throughput_ok":69793.35555555555,"p99":14.716,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":15.31272174023485}
+[21:33:45] E1 etcd rep2 N=1024
+{"threads":1024,"throughput_ok":114770.01111111112,"p99":17.726,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":24.386304176550475}
+[21:35:56] E1 etcd rep2 N=2048
+{"threads":2048,"throughput_ok":156768.56666666668,"p99":27.065,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":32.63800830031375}
+[21:38:10] E1 etcd rep2 N=4096
+{"threads":4096,"throughput_ok":183790.27777777778,"p99":40.374,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":36.56561754454209}
+[21:40:27] E1 etcd rep2 N=8192
+{"threads":8192,"throughput_ok":200644.92222222223,"p99":68.058,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":41.561500010825235}
+[21:42:44] E1 etcd rep2 N=16384
+{"threads":16384,"throughput_ok":189944.22222222222,"p99":152.247,"errors":143,"timeouts":0,"gen_cpus_util_pct_avg":41.48620991933695}
+[21:45:12] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n3 Creating 
+ Container n1 Creating 
+ Container n2 Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container n1 Created 
+ Container gerador Starting 
+ Container n2 Starting 
+ Container n1 Starting 
+ Container n3 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Healthy 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+load: 10000 chaves, 0 falhas
+[21:45:16] cluster etcd pronto
+[21:45:16] E1 etcd rep3 N=1
+{"threads":1,"throughput_ok":1752.0111111111112,"p99":1.694,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.682518856478636}
+[21:47:21] E1 etcd rep3 N=2
+{"threads":2,"throughput_ok":2696.788888888889,"p99":2.206,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":6.592824322872792}
+[21:49:27] E1 etcd rep3 N=4
+{"threads":4,"throughput_ok":4360.577777777778,"p99":2.973,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":5.948505584847044}
+[21:51:32] E1 etcd rep3 N=8
+{"threads":8,"throughput_ok":5686.733333333334,"p99":4.389,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":7.653282197972486}
+[21:53:37] E1 etcd rep3 N=16
+{"threads":16,"throughput_ok":7387.011111111111,"p99":5.858,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":8.648540531640004}
+[21:55:43] E1 etcd rep3 N=32
+{"threads":32,"throughput_ok":10288.18888888889,"p99":7.338,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":9.951265287695856}
+[21:57:48] E1 etcd rep3 N=64
+{"threads":64,"throughput_ok":15467.488888888889,"p99":8.957,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":10.97718059636859}
+[21:59:54] E1 etcd rep3 N=128
+{"threads":128,"throughput_ok":24544.61111111111,"p99":10.701,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":12.277080011220818}
+[22:02:01] E1 etcd rep3 N=256
+{"threads":256,"throughput_ok":39053.91111111111,"p99":13.211,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":13.204271204008634}
+[22:04:08] E1 etcd rep3 N=512
+{"threads":512,"throughput_ok":69600.67777777778,"p99":14.679,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":15.899091545348089}
+[22:06:17] E1 etcd rep3 N=1024
+{"threads":1024,"throughput_ok":114535.02222222222,"p99":17.771,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":25.03860597679944}
+[22:08:28] E1 etcd rep3 N=2048
+{"threads":2048,"throughput_ok":155626.17777777778,"p99":26.501,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":33.68400116518183}
+[22:10:43] E1 etcd rep3 N=4096
+{"threads":4096,"throughput_ok":185636.64444444445,"p99":40.514,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":37.332875145578306}
+[22:12:59] E1 etcd rep3 N=8192
+{"threads":8192,"throughput_ok":195392.55555555556,"p99":70.557,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":41.69402198713449}
+[22:15:16] E1 etcd rep3 N=16384
+{"threads":16384,"throughput_ok":196047.14444444445,"p99":139.732,"errors":4,"timeouts":0,"gen_cpus_util_pct_avg":42.3349309446784}
+[22:17:44] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[22:21:23] cluster cassandra pronto
+[22:21:23] E1 cassandra rep1 N=1
+{"threads":1,"throughput_ok":732.2111111111111,"p99":1.623,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":1.5712034413279488}
+[22:23:28] E1 cassandra rep1 N=2
+{"threads":2,"throughput_ok":1659.1555555555556,"p99":1.635,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":2.3760297841306013}
+[22:25:34] E1 cassandra rep1 N=4
+{"threads":4,"throughput_ok":4908.7,"p99":1.625,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.6937104061914665}
+[22:27:39] E1 cassandra rep1 N=8
+{"threads":8,"throughput_ok":9577.966666666667,"p99":1.495,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":3.75674750978107}
+[22:29:45] E1 cassandra rep1 N=16
+{"threads":16,"throughput_ok":23380.98888888889,"p99":1.439,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.859012484107892}
+[22:31:51] E1 cassandra rep1 N=32
+{"threads":32,"throughput_ok":87606.72222222222,"p99":0.666,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":16.404507003617795}
+[22:34:00] E1 cassandra rep1 N=64
+{"threads":64,"throughput_ok":152572.16666666666,"p99":0.819,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.06793319864802}
+[22:36:12] E1 cassandra rep1 N=128
+{"threads":128,"throughput_ok":200116.48888888888,"p99":1.844,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":33.0397234376301}
+[22:38:27] E1 cassandra rep1 N=256
+{"threads":256,"throughput_ok":279675.8777777778,"p99":3.523,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":39.464128419291}
+[22:40:47] E1 cassandra rep1 N=512
+{"threads":512,"throughput_ok":403655.9,"p99":4.973,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":52.87907209895358}
+[22:43:14] E1 cassandra rep1 N=1024
+{"threads":1024,"throughput_ok":435018.6111111111,"p99":8.194,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":55.117765173218885}
+[22:45:43] E1 cassandra rep1 N=2048
+{"threads":2048,"throughput_ok":452740.0111111111,"p99":14.135,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":56.66248984938085}
+[22:48:14] E1 cassandra rep1 N=4096
+{"threads":4096,"throughput_ok":446876.3777777778,"p99":34.944,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":57.10272334893351}
+[22:50:46] E1 cassandra rep1 N=8192
+{"threads":8192,"throughput_ok":448276.84444444446,"p99":48.915,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":57.247492730827894}
+[22:53:18] E1 cassandra rep1 N=16384
+{"threads":16384,"throughput_ok":396470.8,"p99":152.86,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":52.4091230019515}
+[22:56:15] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[22:59:53] cluster cassandra pronto
+[22:59:53] E1 cassandra rep2 N=1
+{"threads":1,"throughput_ok":732.3777777777777,"p99":1.617,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":1.5786186691264679}
+[23:01:58] E1 cassandra rep2 N=2
+{"threads":2,"throughput_ok":1659.9888888888888,"p99":1.635,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":2.4582181300555477}
+[23:04:04] E1 cassandra rep2 N=4
+{"threads":4,"throughput_ok":4870.811111111111,"p99":1.627,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.637579186239054}
+[23:06:09] E1 cassandra rep2 N=8
+{"threads":8,"throughput_ok":9500.244444444445,"p99":1.497,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":3.826674726000679}
+[23:08:15] E1 cassandra rep2 N=16
+{"threads":16,"throughput_ok":23052.244444444445,"p99":1.439,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.822969562227792}
+[23:10:21] E1 cassandra rep2 N=32
+{"threads":32,"throughput_ok":87968.26666666666,"p99":0.821,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":16.417860471407216}
+[23:12:30] E1 cassandra rep2 N=64
+{"threads":64,"throughput_ok":154106.27777777778,"p99":0.829,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.80243632279251}
+[23:14:42] E1 cassandra rep2 N=128
+{"threads":128,"throughput_ok":204887.0888888889,"p99":1.844,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":34.416062544549774}
+[23:16:58] E1 cassandra rep2 N=256
+{"threads":256,"throughput_ok":230305,"p99":3.536,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":35.348480401218076}
+[23:19:15] E1 cassandra rep2 N=512
+{"threads":512,"throughput_ok":422103.3888888889,"p99":4.555,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":56.58881745686014}
+[23:21:42] E1 cassandra rep2 N=1024
+{"threads":1024,"throughput_ok":448429.2111111111,"p99":8.442,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":58.67268610955126}
+[23:24:13] E1 cassandra rep2 N=2048
+{"threads":2048,"throughput_ok":462431.1222222222,"p99":14.396,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":58.35348229111928}
+[23:26:44] E1 cassandra rep2 N=4096
+{"threads":4096,"throughput_ok":404941.34444444446,"p99":73.608,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":52.561701514318315}
+[23:29:14] E1 cassandra rep2 N=8192
+{"threads":8192,"throughput_ok":424177.7555555556,"p99":80.668,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":55.13297510864425}
+[23:31:46] E1 cassandra rep2 N=16384
+{"threads":16384,"throughput_ok":436013.77777777775,"p99":114.092,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":57.52587661587417}
+[23:34:44] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container gerador Created 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[23:38:24] cluster cassandra pronto
+[23:38:24] E1 cassandra rep3 N=1
+{"threads":1,"throughput_ok":732.9,"p99":1.607,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":1.6395790322541512}
+[23:40:29] E1 cassandra rep3 N=2
+{"threads":2,"throughput_ok":1647.2,"p99":1.628,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":2.400274852645585}
+[23:42:34] E1 cassandra rep3 N=4
+{"threads":4,"throughput_ok":4848.211111111111,"p99":1.618,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.601726345189029}
+[23:44:40] E1 cassandra rep3 N=8
+{"threads":8,"throughput_ok":9395.522222222222,"p99":1.496,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":3.7116376690489563}
+[23:46:45] E1 cassandra rep3 N=16
+{"threads":16,"throughput_ok":22869.6,"p99":1.437,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":4.695324918365426}
+[23:48:51] E1 cassandra rep3 N=32
+{"threads":32,"throughput_ok":88457.63333333333,"p99":1.006,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":16.067131371873668}
+[23:51:01] E1 cassandra rep3 N=64
+{"threads":64,"throughput_ok":156809.75555555554,"p99":0.803,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.520309855783225}
+[23:53:13] E1 cassandra rep3 N=128
+{"threads":128,"throughput_ok":213977.88888888888,"p99":1.725,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":34.777668885797894}
+[23:55:29] E1 cassandra rep3 N=256
+{"threads":256,"throughput_ok":260601.94444444444,"p99":3.546,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":37.81766414300113}
+[23:57:48] E1 cassandra rep3 N=512
+{"threads":512,"throughput_ok":426957.7555555556,"p99":4.511,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":55.68018004825631}
+[00:00:16] E1 cassandra rep3 N=1024
+{"threads":1024,"throughput_ok":452488.76666666666,"p99":8.372,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":57.7949057181567}
+[00:02:46] E1 cassandra rep3 N=2048
+{"threads":2048,"throughput_ok":467043.9555555555,"p99":13.698,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":58.785683719417655}
+[00:05:18] E1 cassandra rep3 N=4096
+{"threads":4096,"throughput_ok":462046.86666666664,"p99":38.943,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":58.749235554371225}
+[00:07:50] E1 cassandra rep3 N=8192
+{"threads":8192,"throughput_ok":425411.77777777775,"p99":89.441,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":55.2106001934795}
+[00:10:22] E1 cassandra rep3 N=16384
+{"threads":16384,"throughput_ok":420673.3888888889,"p99":140.909,"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":55.66713018312554}

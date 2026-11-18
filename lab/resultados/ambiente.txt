@@ -1,0 +1,19 @@
+data: 2026-11-17T20:39:44-03:00
+kernel: 7.1.8-arch1-3
+PRETTY_NAME="Arch Linux"
+CPU(s):                                  28
+Model name:                              Intel(R) Core(TM) i7-14700
+CPU(s) scaling MHz:                      90%
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        19Gi       2.0Gi       2.9Gi        11Gi        11Gi
+/dev/nvme0n1p2 ext4   rw,relatime
+NAME    MODEL               ROTA   SIZE
+zram0                          0     4G
+nvme0n1 KINGSTON SFYRS1000G    0 931.5G
+docker 29.7.2
+Docker Compose version 5.5.0
+quay.io/coreos/etcd:v3.7.3 sha256:380d0ce8f32cc05ce8a1ea99c74da03be90d6c1dad75c9a2ddb8d83162af7f70
+cassandra:5.0 sha256:9920e40fc47062891e4539487b8c996a10b59699eb82e34f327c83f67f48680e
+alpine:3.22 sha256:812e99317af7009fea987b5ad913e63f8494c2d6e596b59b6ac8b8f91f7766e8
+nicolaka/netshoot:latest sha256:2298d942ce5f8e8083c036b6d62e129379998712ef78343f88d41d782d507141
+go version go1.26.6-X:nodwarf5 linux/amd64

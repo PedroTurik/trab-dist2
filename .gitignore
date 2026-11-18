@@ -1,0 +1,5 @@
+lab/resultados/**/*.csv.gz
+lab/.venv/
+lab/gerador/bin/
+relatorio/relatorio_final.md
+entrega_lab_consistencia.zip

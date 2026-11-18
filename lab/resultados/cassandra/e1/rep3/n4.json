@@ -1,0 +1,40 @@
+{
+  "all": {
+    "n": 436339,
+    "p50_ms": 0.619,
+    "p95_ms": 1.512,
+    "p99_ms": 1.618
+  },
+  "dur_s": 120,
+  "error_rate": 0,
+  "errors": 0,
+  "gen_cpu_cores_avg": 0.540703575002923,
+  "gen_cpu_cores_max": 0.6456205467743746,
+  "gen_cpus": 16,
+  "gen_cpus_util_pct_avg": 4.601726345189029,
+  "gen_cpus_util_pct_max": 6.587202007528231,
+  "get": {
+    "n": 349325,
+    "p50_ms": 0.632,
+    "p95_ms": 1.528,
+    "p99_ms": 1.628
+  },
+  "ok": 436339,
+  "pin": true,
+  "put": {
+    "n": 87014,
+    "p50_ms": 0.55,
+    "p95_ms": 1.444,
+    "p99_ms": 1.52
+  },
+  "seed": 42,
+  "serializable": false,
+  "sys": "cassandra",
+  "t_end_ns": 1794969874946600487,
+  "t_start_ns": 1794969754946070526,
+  "threads": 4,
+  "throughput_ok": 4848.211111111111,
+  "timeouts": 0,
+  "warmup_s": 30,
+  "window_s": 90
+}

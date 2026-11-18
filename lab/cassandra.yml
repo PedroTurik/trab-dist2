@@ -1,0 +1,103 @@
+name: lab-cassandra
+
+# Adaptado do lab-compose.zip. Mudancas (documentadas no relatorio):
+#  - cassandra:4.1 -> cassandra:5.0 (versao estavel atual)
+#  - heap 512M -> 2G (a maquina tem 32 GB; evita GC excessivo sob carga)
+#  - cpuset fixo por no (4 CPUs logicas = 2 nucleos P cada) e gerador em CPUs separadas
+#  - gerador: binario Go estatico (gerador/bin/gerador) em alpine, em vez de python
+# Defaults relevantes do cassandra.yaml 5.0 (nao alterados): commitlog_sync: periodic
+# (10 s), hinted_handoff_enabled: true (max_hint_window 3h), write_request_timeout 2 s,
+# read_request_timeout 5 s, endpoint_snitch: SimpleSnitch (+ dynamic snitch).
+x-cass: &cass
+  image: cassandra:5.0
+  healthcheck:
+    test: ["CMD-SHELL", "cqlsh -e 'describe keyspaces' > /dev/null 2>&1"]
+    interval: 10s
+    timeout: 15s
+    retries: 30
+    start_period: 40s
+  environment: &cass-env
+    CASSANDRA_CLUSTER_NAME: lab
+    CASSANDRA_SEEDS: 172.30.0.11
+    CASSANDRA_RPC_ADDRESS: 0.0.0.0
+    MAX_HEAP_SIZE: 2G
+    HEAP_NEWSIZE: 400M
+
+services:
+  n1:
+    <<: *cass
+    container_name: n1
+    cpuset: "0-3"
+    environment:
+      <<: *cass-env
+      CASSANDRA_LISTEN_ADDRESS: 172.30.0.11
+      CASSANDRA_BROADCAST_ADDRESS: 172.30.0.11
+      CASSANDRA_BROADCAST_RPC_ADDRESS: 172.31.0.11
+    networks:
+      cluster:
+        ipv4_address: 172.30.0.11
+      clientes:
+        ipv4_address: 172.31.0.11
+
+  n2:
+    <<: *cass
+    container_name: n2
+    cpuset: "4-7"
+    environment:
+      <<: *cass-env
+      CASSANDRA_LISTEN_ADDRESS: 172.30.0.12
+      CASSANDRA_BROADCAST_ADDRESS: 172.30.0.12
+      CASSANDRA_BROADCAST_RPC_ADDRESS: 172.31.0.12
+    depends_on:
+      n1:
+        condition: service_healthy
+    networks:
+      cluster:
+        ipv4_address: 172.30.0.12
+      clientes:
+        ipv4_address: 172.31.0.12
+
+  n3:
+    <<: *cass
+    container_name: n3
+    cpuset: "8-11"
+    environment:
+      <<: *cass-env
+      CASSANDRA_LISTEN_ADDRESS: 172.30.0.13
+      CASSANDRA_BROADCAST_ADDRESS: 172.30.0.13
+      CASSANDRA_BROADCAST_RPC_ADDRESS: 172.31.0.13
+    depends_on:
+      n2:
+        condition: service_healthy
+    networks:
+      cluster:
+        ipv4_address: 172.30.0.13
+      clientes:
+        ipv4_address: 172.31.0.13
+
+  gerador:
+    image: alpine:3.22
+    container_name: gerador
+    user: "1000:1000"
+    cpuset: "12-27"
+    working_dir: /app
+    volumes:
+      - ./gerador:/app
+      - ./resultados:/resultados
+    command: sleep infinity
+    networks:
+      clientes:
+        ipv4_address: 172.31.0.100
+
+
+networks:
+  cluster:
+    name: lab_cluster
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24
+  clientes:
+    name: lab_clientes
+    ipam:
+      config:
+        - subnet: 172.31.0.0/24

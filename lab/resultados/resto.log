@@ -1,0 +1,1659 @@
+[00:21:25] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container gerador Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container n1 Created 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container gerador Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[00:21:27] cluster etcd pronto
+[00:21:29] lider do etcd: n1
+[00:21:29] evento: load_start
+[00:22:09] evento: partition
+n1 isolado de n2 e n3 em 00:22:09
+## n2 -> n3 (deve funcionar)
+5 packets transmitted, 5 received, 0% packet loss, time 4088ms
+rtt min/avg/max/mdev = 0.021/0.029/0.053/0.012 ms
+## n1 -> n2 (deve falhar)
+3 packets transmitted, 0 received, 100% packet loss, time 2062ms
+
+## gerador -> n1 (deve funcionar)
+3 packets transmitted, 3 received, 0% packet loss, time 2037ms
+rtt min/avg/max/mdev = 0.024/0.024/0.026/0.000 ms
+[00:23:09] evento: heal
+particao curada em 00:23:09
+[00:24:06] evento: load_end
+[00:24:07] convergencia t=1s: n1/n2=0 n1/n3=0 n2/n3=0
+[00:24:07] evento: converged
+[00:24:18] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container n2 Starting 
+ Container gerador Starting 
+ Container n3 Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[00:24:19] cluster etcd pronto
+[00:24:21] lider do etcd: n1
+[00:24:21] evento: load_start
+[00:25:01] evento: partition
+n1 isolado de n2 e n3 em 00:25:01
+## n2 -> n3 (deve funcionar)
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.021/0.031/0.054/0.012 ms
+## n1 -> n2 (deve falhar)
+3 packets transmitted, 0 received, 100% packet loss, time 2067ms
+
+## gerador -> n1 (deve funcionar)
+3 packets transmitted, 3 received, 0% packet loss, time 2030ms
+rtt min/avg/max/mdev = 0.022/0.024/0.028/0.002 ms
+[00:26:01] evento: heal
+particao curada em 00:26:01
+[00:26:59] evento: load_end
+[00:26:59] convergencia t=0s: n1/n2=0 n1/n3=0 n2/n3=0
+[00:26:59] evento: converged
+[00:27:10] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n2 Creating 
+ Container n3 Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container n2 Created 
+ Container n3 Starting 
+ Container n1 Starting 
+ Container n2 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[00:27:12] cluster etcd pronto
+[00:27:14] lider do etcd: n1
+[00:27:14] evento: load_start
+[00:27:54] evento: partition
+n1 isolado de n2 e n3 em 00:27:54
+## n2 -> n3 (deve funcionar)
+5 packets transmitted, 5 received, 0% packet loss, time 4096ms
+rtt min/avg/max/mdev = 0.017/0.024/0.045/0.010 ms
+## n1 -> n2 (deve falhar)
+3 packets transmitted, 0 received, 100% packet loss, time 2060ms
+
+## gerador -> n1 (deve funcionar)
+3 packets transmitted, 3 received, 0% packet loss, time 2029ms
+rtt min/avg/max/mdev = 0.026/0.028/0.031/0.002 ms
+[00:28:54] evento: heal
+particao curada em 00:28:54
+[00:29:52] evento: load_end
+[00:29:52] convergencia t=0s: n1/n2=0 n1/n3=0 n2/n3=0
+[00:29:52] evento: converged
+[00:30:03] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container n3 Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container n1 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container n3 Starting 
+ Container n2 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container gerador Healthy 
+load: 10000 chaves, 0 falhas
+[00:30:05] cluster etcd pronto
+[00:30:08] lider do etcd: n1
+[00:30:08] evento: load_start
+[00:31:08] evento: kill_n1
+[00:31:28] novo lider: n3
+[00:32:18] evento: start_n1
+[00:34:20] evento: load_end
+[00:34:31] subindo cluster etcd
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container gerador Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container n2 Created 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[00:34:35] cluster etcd pronto
+[00:34:35] evento: load_start
+[00:35:35] evento: kill_n1
+[00:35:55] novo lider: n2
+[00:36:46] evento: start_n1
+[00:38:47] evento: load_end
+[00:38:58] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container gerador Creating 
+ Container gerador Created 
+ Container n2 Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container gerador Healthy 
+ Container n1 Healthy 
+load: 10000 chaves, 0 falhas
+[00:39:03] cluster etcd pronto
+[00:39:05] lider do etcd: n1
+[00:39:05] evento: load_start
+[00:40:06] evento: kill_n1
+[00:40:26] novo lider: n3
+[00:41:16] evento: start_n1
+[00:43:13] evento: load_end
+[00:43:24] subindo cluster etcd
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container gerador Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container n1 Created 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container n2 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+ Container n2 Healthy 
+load: 10000 chaves, 0 falhas
+[00:43:32] cluster etcd pronto
+[00:43:34] lider do etcd: n1
+[00:43:34] evento: load_start
+[00:44:35] evento: kill_n3
+[00:44:55] novo lider: n1
+[00:45:45] evento: start_n3
+[00:47:47] evento: load_end
+[00:47:58] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n3 Creating 
+ Container n1 Creating 
+ Container n2 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Created 
+ Container n3 Created 
+ Container n2 Starting 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container n3 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container gerador Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+load: 10000 chaves, 0 falhas
+[00:48:01] cluster etcd pronto
+[00:48:03] lider do etcd: n1
+[00:48:03] evento: load_start
+[00:49:04] evento: kill_n3
+[00:49:24] novo lider: n1
+[00:50:14] evento: start_n3
+[00:52:16] evento: load_end
+[00:52:27] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n3 Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container n3 Starting 
+ Container n2 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+ Container gerador Healthy 
+load: 10000 chaves, 0 falhas
+[00:52:30] cluster etcd pronto
+[00:52:30] evento: load_start
+[00:53:30] evento: kill_n3
+[00:53:50] novo lider: n1
+[00:54:40] evento: start_n3
+[00:56:42] evento: load_end
+[00:56:53] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container n1 Created 
+ Container n2 Created 
+ Container gerador Created 
+ Container n3 Created 
+ Container n3 Starting 
+ Container gerador Starting 
+ Container n2 Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n3 Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[00:56:55] cluster etcd pronto
+[00:56:55] E3 etcd rep1 normal linearizable
+{"pairs":10007,"stale":0,"stale_rate":0,"max_lag_versions":0,"put_errors":0,"get_errors":0,"elapsed_s":4.822361641}
+[00:57:00] E3 etcd rep1 normal serializable
+{"pairs":10007,"stale":6146,"stale_rate":0.6141700809433397,"max_lag_versions":2,"put_errors":0,"get_errors":0,"elapsed_s":3.5956512480000002}
+c7b6c8b1140b: netem 50ms em eth1
+e0d539a79824: netem 50ms em eth1
+97af204e03b3: netem 50ms em eth1
+[00:57:09] E3 etcd rep1 atraso linearizable
+{"pairs":10007,"stale":0,"stale_rate":0,"max_lag_versions":0,"put_errors":0,"get_errors":0,"elapsed_s":502.813554521}
+[01:05:31] E3 etcd rep1 atraso serializable
+{"pairs":10007,"stale":9999,"stale_rate":0.9992005596082743,"max_lag_versions":1,"put_errors":0,"get_errors":0,"elapsed_s":127.863600382}
+netem removido em eth1
+netem removido em eth1
+netem removido em eth1
+[01:07:51] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container n1 Creating 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container n2 Created 
+ Container gerador Starting 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[01:07:53] cluster etcd pronto
+[01:07:55] lider do etcd: n1
+[01:07:55] E3 etcd rep2 normal linearizable
+{"pairs":10007,"stale":0,"stale_rate":0,"max_lag_versions":0,"put_errors":0,"get_errors":0,"elapsed_s":4.665120414}
+[01:08:00] E3 etcd rep2 normal serializable
+{"pairs":10007,"stale":6394,"stale_rate":0.6389527330868392,"max_lag_versions":2,"put_errors":0,"get_errors":0,"elapsed_s":3.52878132}
+aa97b8e1c5c6: netem 50ms em eth1
+1c4172a42aa7: netem 50ms em eth1
+7c98f340c3f8: netem 50ms em eth0
+[01:08:08] E3 etcd rep2 atraso linearizable
+{"pairs":10007,"stale":0,"stale_rate":0,"max_lag_versions":0,"put_errors":0,"get_errors":0,"elapsed_s":502.859618872}
+[01:16:31] E3 etcd rep2 atraso serializable
+{"pairs":10007,"stale":9999,"stale_rate":0.9992005596082743,"max_lag_versions":1,"put_errors":0,"get_errors":0,"elapsed_s":127.893488428}
+netem removido em eth1
+netem removido em eth1
+netem removido em eth0
+[01:18:50] subindo cluster etcd
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container n3 Creating 
+ Container n2 Created 
+ Container n3 Created 
+ Container gerador Created 
+ Container n1 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+ Container n2 Healthy 
+load: 10000 chaves, 0 falhas
+[01:18:54] cluster etcd pronto
+[01:18:56] lider do etcd: n1
+[01:18:56] E3 etcd rep3 normal linearizable
+{"pairs":10006,"stale":0,"stale_rate":0,"max_lag_versions":0,"put_errors":0,"get_errors":0,"elapsed_s":4.798347763}
+[01:19:01] E3 etcd rep3 normal serializable
+{"pairs":10007,"stale":6201,"stale_rate":0.6196662336364545,"max_lag_versions":2,"put_errors":0,"get_errors":0,"elapsed_s":3.4807257480000002}
+06c1d35fb48f: netem 50ms em eth0
+0152e2629db4: netem 50ms em eth1
+baef03cb8c50: netem 50ms em eth0
+[01:19:10] E3 etcd rep3 atraso linearizable
+{"pairs":10007,"stale":0,"stale_rate":0,"max_lag_versions":0,"put_errors":0,"get_errors":0,"elapsed_s":502.868900325}
+[01:27:33] E3 etcd rep3 atraso serializable
+{"pairs":10007,"stale":9999,"stale_rate":0.9992005596082743,"max_lag_versions":1,"put_errors":0,"get_errors":0,"elapsed_s":127.863175492}
+netem removido em eth0
+netem removido em eth1
+netem removido em eth0
+[01:29:52] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n3 Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container gerador Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container n3 Starting 
+ Container n2 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+ Container gerador Healthy 
+load: 10000 chaves, 0 falhas
+[01:29:54] cluster etcd pronto
+[01:29:54] E2 etcd rep1 N=1024
+{"throughput_ok":114672.71333333333,"get":{"n":13757870,"p50_ms":9.1,"p95_ms":15.246,"p99_ms":18.326},"put":{"n":3443037,"p50_ms":6.101,"p95_ms":9.776,"p99_ms":12.35},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":23.70531422766224}
+[01:33:14] subindo cluster etcd
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container n3 Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container n2 Created 
+ Container n2 Starting 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container n3 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+load: 10000 chaves, 0 falhas
+[01:33:16] cluster etcd pronto
+[01:33:18] lider do etcd: n1
+[01:33:18] E2 etcd rep2 N=1024
+{"throughput_ok":108718.59333333334,"get":{"n":13044267,"p50_ms":9.151,"p95_ms":15.537,"p99_ms":35.098},"put":{"n":3263522,"p50_ms":6.105,"p95_ms":9.977,"p99_ms":24.392},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":22.849325437546128}
+[01:36:38] subindo cluster etcd
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container n3 Creating 
+ Container gerador Created 
+ Container n2 Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container gerador Starting 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n3 Started 
+ Container n1 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+load: 10000 chaves, 0 falhas
+[01:36:42] cluster etcd pronto
+[01:36:44] lider do etcd: n1
+[01:36:44] E2 etcd rep3 N=1024
+{"throughput_ok":71021.34,"get":{"n":8521573,"p50_ms":9.851,"p95_ms":64.74,"p99_ms":95.875},"put":{"n":2131628,"p50_ms":6.385,"p95_ms":41.415,"p99_ms":65.308},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":18.848828597623434}
+[01:40:02] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n2 Creating 
+ Container n3 Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n3 Created 
+ Container n2 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container n2 Starting 
+ Container n3 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Healthy 
+ Container gerador Healthy 
+ Container n1 Healthy 
+load: 10000 chaves, 0 falhas
+[01:40:07] cluster etcd pronto
+[01:40:09] lider do etcd: n1
+a1ef9c4398db: netem 50ms em eth1
+1bfc6fb4acd1: netem 50ms em eth1
+ae4c7f74255a: netem 50ms em eth1
+rtt min/avg/max/mdev = 100.124/100.143/100.191/0.024 ms
+rtt min/avg/max/mdev = 100.065/100.153/100.206/0.049 ms
+rtt min/avg/max/mdev = 0.024/0.053/0.073/0.021 ms
+[01:40:22] E4 etcd rep1 N=1024 atraso=50ms
+{"throughput_ok":3698.7733333333335,"get":{"n":443983,"p50_ms":218.975,"p95_ms":416.51,"p99_ms":421.28},"put":{"n":110833,"p50_ms":117.249,"p95_ms":215.301,"p99_ms":219.194},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":3.692420081590273}
+netem removido em eth1
+netem removido em eth1
+netem removido em eth1
+[01:43:34] subindo cluster etcd
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container gerador Created 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n3 Creating 
+ Container n1 Creating 
+ Container n2 Creating 
+ Container n3 Created 
+ Container n2 Created 
+ Container n1 Created 
+ Container gerador Starting 
+ Container n3 Starting 
+ Container n2 Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n3 Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+ Container n2 Healthy 
+load: 10000 chaves, 0 falhas
+[01:43:36] cluster etcd pronto
+db6997731078: netem 50ms em eth1
+cfc131ef3ab5: netem 50ms em eth1
+541eebc70ac9: netem 50ms em eth0
+rtt min/avg/max/mdev = 100.168/100.227/100.263/0.031 ms
+rtt min/avg/max/mdev = 100.069/100.114/100.188/0.043 ms
+rtt min/avg/max/mdev = 0.047/0.053/0.059/0.005 ms
+[01:43:47] E4 etcd rep2 N=1024 atraso=50ms
+{"throughput_ok":3705.366666666667,"get":{"n":444783,"p50_ms":218.001,"p95_ms":416.246,"p99_ms":421.489},"put":{"n":111022,"p50_ms":116.83,"p95_ms":214.945,"p99_ms":219.114},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":3.6422564736377963}
+netem removido em eth1
+netem removido em eth1
+netem removido em eth0
+[01:46:59] subindo cluster etcd
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n2 Creating 
+ Container n1 Creating 
+ Container n3 Creating 
+ Container gerador Created 
+ Container n3 Created 
+ Container n1 Created 
+ Container n2 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container n3 Starting 
+ Container n2 Starting 
+ Container gerador Started 
+ Container n2 Started 
+ Container n1 Started 
+ Container n3 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n3 Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+load: 10000 chaves, 0 falhas
+[01:47:01] cluster etcd pronto
+[01:47:04] lider do etcd: n1
+835ad8b5efdc: netem 50ms em eth0
+449e81cf2fdb: netem 50ms em eth1
+98a6f7e67f06: netem 50ms em eth1
+rtt min/avg/max/mdev = 100.192/100.233/100.256/0.024 ms
+rtt min/avg/max/mdev = 100.040/100.180/100.267/0.083 ms
+rtt min/avg/max/mdev = 0.042/0.065/0.079/0.016 ms
+[01:47:15] E4 etcd rep3 N=1024 atraso=50ms
+{"throughput_ok":3696.0933333333332,"get":{"n":443668,"p50_ms":218.399,"p95_ms":417.233,"p99_ms":421.85},"put":{"n":110746,"p50_ms":116.78,"p95_ms":215.501,"p99_ms":219.502},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":3.6759993656963084}
+netem removido em eth0
+netem removido em eth1
+netem removido em eth1
+[01:50:28] subindo cluster cassandra
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container n2 Healthy 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[01:54:07] cluster cassandra pronto
+[01:54:07] evento: load_start
+[01:54:47] evento: partition
+n1 isolado de n2 e n3 em 01:54:47
+## n2 -> n3 (deve funcionar)
+5 packets transmitted, 5 received, 0% packet loss, time 4086ms
+rtt min/avg/max/mdev = 0.017/0.022/0.041/0.009 ms
+## n1 -> n2 (deve falhar)
+3 packets transmitted, 0 received, 100% packet loss, time 2043ms
+
+## gerador -> n1 (deve funcionar)
+3 packets transmitted, 3 received, 0% packet loss, time 2047ms
+rtt min/avg/max/mdev = 0.024/0.026/0.029/0.002 ms
+[01:55:47] evento: heal
+particao curada em 01:55:47
+[01:56:46] evento: load_end
+[01:56:47] convergencia t=1s: n1/n2=0 n1/n3=0 n2/n3=0
+[01:56:47] evento: converged
+[01:57:12] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:00:51] cluster cassandra pronto
+[02:00:51] evento: load_start
+[02:01:31] evento: partition
+n1 isolado de n2 e n3 em 02:01:31
+## n2 -> n3 (deve funcionar)
+5 packets transmitted, 5 received, 0% packet loss, time 4104ms
+rtt min/avg/max/mdev = 0.015/0.024/0.031/0.006 ms
+## n1 -> n2 (deve falhar)
+3 packets transmitted, 0 received, 100% packet loss, time 2056ms
+
+## gerador -> n1 (deve funcionar)
+3 packets transmitted, 3 received, 0% packet loss, time 2067ms
+rtt min/avg/max/mdev = 0.024/0.027/0.032/0.003 ms
+[02:02:31] evento: heal
+particao curada em 02:02:31
+[02:03:30] evento: load_end
+[02:03:31] convergencia t=1s: n1/n2=0 n1/n3=0 n2/n3=0
+[02:03:31] evento: converged
+[02:03:56] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container n1 Healthy 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:07:35] cluster cassandra pronto
+[02:07:35] evento: load_start
+[02:08:15] evento: partition
+n1 isolado de n2 e n3 em 02:08:15
+## n2 -> n3 (deve funcionar)
+5 packets transmitted, 5 received, 0% packet loss, time 4112ms
+rtt min/avg/max/mdev = 0.027/0.030/0.032/0.002 ms
+## n1 -> n2 (deve falhar)
+3 packets transmitted, 0 received, 100% packet loss, time 2030ms
+
+## gerador -> n1 (deve funcionar)
+3 packets transmitted, 3 received, 0% packet loss, time 2067ms
+rtt min/avg/max/mdev = 0.023/0.024/0.027/0.001 ms
+[02:09:15] evento: heal
+particao curada em 02:09:15
+[02:10:15] evento: load_end
+[02:10:15] convergencia t=0s: n1/n2=0 n1/n3=0 n2/n3=0
+[02:10:15] evento: converged
+[02:10:41] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:14:21] cluster cassandra pronto
+[02:14:21] evento: load_start
+2026/11/18 05:15:21 gocql: unable to dial control conn 172.31.0.11:9042: dial tcp 172.31.0.11:9042: connect: connection refused
+2026/11/18 05:15:21 gocql: unable to dial control conn 172.31.0.11:9042: dial tcp 172.31.0.11:9042: connect: connection refused
+[02:15:21] evento: kill_n1
+[02:16:23] evento: start_n1
+[02:18:35] evento: load_end
+[02:19:01] subindo cluster cassandra
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n1 Healthy 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:22:39] cluster cassandra pronto
+[02:22:39] evento: load_start
+2026/11/18 05:23:39 gocql: unable to dial control conn 172.31.0.11:9042: dial tcp 172.31.0.11:9042: connect: connection refused
+2026/11/18 05:23:39 gocql: unable to dial control conn 172.31.0.11:9042: dial tcp 172.31.0.11:9042: connect: connection refused
+[02:23:39] evento: kill_n1
+[02:24:41] evento: start_n1
+[02:26:52] evento: load_end
+[02:27:18] subindo cluster cassandra
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container gerador Created 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:30:57] cluster cassandra pronto
+[02:30:57] evento: load_start
+2026/11/18 05:31:57 gocql: unable to dial control conn 172.31.0.11:9042: dial tcp 172.31.0.11:9042: connect: connection refused
+2026/11/18 05:31:57 gocql: unable to dial control conn 172.31.0.11:9042: dial tcp 172.31.0.11:9042: connect: connection refused
+[02:31:58] evento: kill_n1
+[02:33:00] evento: start_n1
+[02:35:11] evento: load_end
+[02:35:38] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n1 Healthy 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:39:16] cluster cassandra pronto
+[02:39:16] evento: load_start
+2026/11/18 05:40:16 gocql: unable to dial control conn 172.31.0.13:9042: dial tcp 172.31.0.13:9042: connect: connection refused
+[02:40:16] evento: kill_n3
+[02:41:18] evento: start_n3
+[02:43:29] evento: load_end
+[02:43:56] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container gerador Created 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:47:35] cluster cassandra pronto
+[02:47:35] evento: load_start
+[02:48:35] evento: kill_n3
+[02:49:37] evento: start_n3
+[02:51:49] evento: load_end
+[02:52:15] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[02:55:56] cluster cassandra pronto
+[02:55:56] evento: load_start
+2026/11/18 05:56:56 gocql: unable to dial control conn 172.31.0.13:9042: dial tcp 172.31.0.13:9042: connect: connection refused
+[02:56:56] evento: kill_n3
+[02:57:58] evento: start_n3
+[03:00:09] evento: load_end
+[03:00:35] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:04:14] cluster cassandra pronto
+[03:04:14] E3 cassandra rep1 normal one
+{"pairs":10007,"stale":0,"stale_rate":0,"max_lag_versions":0,"put_errors":0,"get_errors":0,"elapsed_s":3.226954986}
+a7320a9d5021: netem 50ms em eth1
+1a70120984b8: netem 50ms em eth1
+a14690e0fa6f: netem 50ms em eth1
+[03:04:22] E3 cassandra rep1 atraso one
+{"pairs":10007,"stale":9933,"stale_rate":0.9926051763765364,"max_lag_versions":116,"put_errors":0,"get_errors":0,"elapsed_s":2.951107311}
+netem removido em eth1
+netem removido em eth1
+netem removido em eth1
+[03:04:51] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container n1 Creating 
+ Container gerador Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:08:31] cluster cassandra pronto
+[03:08:31] E3 cassandra rep2 normal one
+{"pairs":10007,"stale":55,"stale_rate":0.00549615269311482,"max_lag_versions":2,"put_errors":0,"get_errors":0,"elapsed_s":2.408193549}
+d9afe34ddc13: netem 50ms em eth1
+5d2a2824e16a: netem 50ms em eth0
+12710d65b88a: netem 50ms em eth0
+[03:08:38] E3 cassandra rep2 atraso one
+{"pairs":10007,"stale":9951,"stale_rate":0.9944039172579194,"max_lag_versions":82,"put_errors":0,"get_errors":0,"elapsed_s":3.00916719}
+netem removido em eth1
+netem removido em eth0
+netem removido em eth0
+[03:09:07] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:12:46] cluster cassandra pronto
+[03:12:46] E3 cassandra rep3 normal one
+{"pairs":10007,"stale":183,"stale_rate":0.01828719896072749,"max_lag_versions":4,"put_errors":0,"get_errors":0,"elapsed_s":2.06458582}
+b50d2784c281: netem 50ms em eth0
+e16f630f7541: netem 50ms em eth1
+58e008a7b8f7: netem 50ms em eth1
+[03:12:53] E3 cassandra rep3 atraso one
+{"pairs":10007,"stale":9878,"stale_rate":0.9871090236834216,"max_lag_versions":137,"put_errors":0,"get_errors":0,"elapsed_s":2.661811594}
+netem removido em eth0
+netem removido em eth1
+netem removido em eth1
+[03:13:22] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:17:01] cluster cassandra pronto
+[03:17:01] E2 cassandra rep1 N=64
+{"throughput_ok":158619.03333333333,"get":{"n":19036326,"p50_ms":0.39,"p95_ms":0.68,"p99_ms":1.177},"put":{"n":4756529,"p50_ms":0.319,"p95_ms":0.463,"p99_ms":0.585},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.439558423836857}
+[03:20:38] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Healthy 
+ Container n1 Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:24:18] cluster cassandra pronto
+[03:24:18] E2 cassandra rep2 N=64
+{"throughput_ok":159579.30666666667,"get":{"n":19151228,"p50_ms":0.397,"p95_ms":0.656,"p99_ms":1.024},"put":{"n":4785668,"p50_ms":0.318,"p95_ms":0.46,"p99_ms":0.573},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.55356216220489}
+[03:27:54] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:31:34] cluster cassandra pronto
+[03:31:34] E2 cassandra rep3 N=64
+{"throughput_ok":159874.12666666668,"get":{"n":19187901,"p50_ms":0.391,"p95_ms":0.663,"p99_ms":1.03},"put":{"n":4793218,"p50_ms":0.319,"p95_ms":0.46,"p99_ms":0.576},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.463072499129563}
+[03:35:10] subindo cluster cassandra
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:38:49] cluster cassandra pronto
+7eedf8dea6fd: netem 50ms em eth0
+a3f65f794fd0: netem 50ms em eth1
+749121ffb98b: netem 50ms em eth1
+rtt min/avg/max/mdev = 100.060/100.117/100.212/0.054 ms
+rtt min/avg/max/mdev = 100.063/100.102/100.149/0.034 ms
+rtt min/avg/max/mdev = 0.038/0.063/0.091/0.021 ms
+[03:39:00] E4 cassandra rep1 N=64 atraso=50ms
+{"throughput_ok":184840.24,"get":{"n":22185889,"p50_ms":0.325,"p95_ms":0.452,"p99_ms":1.275},"put":{"n":5540147,"p50_ms":0.334,"p95_ms":0.466,"p99_ms":1.292},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.72691491789384}
+netem removido em eth0
+netem removido em eth1
+netem removido em eth1
+[03:42:39] subindo cluster cassandra
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container n1 Creating 
+ Container gerador Created 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container n1 Starting 
+ Container gerador Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Waiting 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n1 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:46:18] cluster cassandra pronto
+ef3e39cd7698: netem 50ms em eth1
+72b135ab6b0c: netem 50ms em eth1
+abe59c07e510: netem 50ms em eth0
+rtt min/avg/max/mdev = 100.039/100.094/100.140/0.032 ms
+rtt min/avg/max/mdev = 100.033/100.084/100.136/0.032 ms
+rtt min/avg/max/mdev = 0.035/0.053/0.063/0.012 ms
+[03:46:30] E4 cassandra rep2 N=64 atraso=50ms
+{"throughput_ok":184944.99333333335,"get":{"n":22198805,"p50_ms":0.325,"p95_ms":0.454,"p99_ms":1.249},"put":{"n":5542944,"p50_ms":0.335,"p95_ms":0.467,"p99_ms":1.273},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.77594907335698}
+netem removido em eth1
+netem removido em eth1
+netem removido em eth0
+[03:50:09] subindo cluster cassandra
+ Network lab_cluster Creating 
+ Network lab_cluster Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Creating 
+ Network lab_clientes Created 
+ Network lab_clientes Created 
+ Container gerador Creating 
+ Container gerador Created 
+ Network lab_cluster Created 
+ Network lab_cluster Created 
+ Container n1 Creating 
+ Container n1 Created 
+ Container n2 Creating 
+ Container n2 Created 
+ Container n3 Creating 
+ Container n3 Created 
+ Container gerador Starting 
+ Container n1 Starting 
+ Container gerador Started 
+ Container n1 Started 
+ Container n1 Waiting 
+ Container n1 Healthy 
+ Container n2 Starting 
+ Container n2 Started 
+ Container n2 Waiting 
+ Container n2 Healthy 
+ Container n3 Starting 
+ Container n3 Started 
+ Container n1 Waiting 
+ Container n2 Waiting 
+ Container n3 Waiting 
+ Container gerador Waiting 
+ Container n1 Healthy 
+ Container gerador Healthy 
+ Container n2 Healthy 
+ Container n3 Healthy 
+load: 10000 chaves, 0 falhas
+[03:53:48] cluster cassandra pronto
+092cda939436: netem 50ms em eth1
+c6ffef963e94: netem 50ms em eth0
+b6b33bc9ab52: netem 50ms em eth1
+rtt min/avg/max/mdev = 100.050/100.074/100.099/0.020 ms
+rtt min/avg/max/mdev = 100.081/100.124/100.183/0.043 ms
+rtt min/avg/max/mdev = 0.025/0.034/0.044/0.007 ms
+[03:53:59] E4 cassandra rep3 N=64 atraso=50ms
+{"throughput_ok":184679.37333333332,"get":{"n":22166694,"p50_ms":0.325,"p95_ms":0.455,"p99_ms":1.263},"put":{"n":5535212,"p50_ms":0.335,"p95_ms":0.469,"p99_ms":1.281},"errors":0,"timeouts":0,"gen_cpus_util_pct_avg":27.683736410891427}
+netem removido em eth1
+netem removido em eth0
+netem removido em eth1

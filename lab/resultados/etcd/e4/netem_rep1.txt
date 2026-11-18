@@ -1,0 +1,6 @@
+a1ef9c4398db: netem 50ms em eth1
+1bfc6fb4acd1: netem 50ms em eth1
+ae4c7f74255a: netem 50ms em eth1
+qdisc noqueue 0: dev lo root refcnt 2 
+qdisc noqueue 0: dev eth0 root refcnt 2 
+qdisc netem 800a: dev eth1 root refcnt 29 limit 1000 delay 50ms seed 14896440309645221536

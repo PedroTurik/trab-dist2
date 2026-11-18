@@ -1,0 +1,6 @@
+835ad8b5efdc: netem 50ms em eth0
+449e81cf2fdb: netem 50ms em eth1
+98a6f7e67f06: netem 50ms em eth1
+qdisc noqueue 0: dev lo root refcnt 2 
+qdisc netem 8010: dev eth0 root refcnt 29 limit 1000 delay 50ms seed 2223472548074876195
+qdisc noqueue 0: dev eth1 root refcnt 2 

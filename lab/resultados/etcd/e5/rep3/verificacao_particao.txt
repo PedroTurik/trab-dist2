@@ -1,0 +1,9 @@
+## n2 -> n3 (deve funcionar)
+5 packets transmitted, 5 received, 0% packet loss, time 4096ms
+rtt min/avg/max/mdev = 0.017/0.024/0.045/0.010 ms
+## n1 -> n2 (deve falhar)
+3 packets transmitted, 0 received, 100% packet loss, time 2060ms
+
+## gerador -> n1 (deve funcionar)
+3 packets transmitted, 3 received, 0% packet loss, time 2029ms
+rtt min/avg/max/mdev = 0.026/0.028/0.031/0.002 ms

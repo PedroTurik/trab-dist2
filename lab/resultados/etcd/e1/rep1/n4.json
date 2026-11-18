@@ -1,0 +1,40 @@
+{
+  "all": {
+    "n": 392264,
+    "p50_ms": 0.812,
+    "p95_ms": 2.136,
+    "p99_ms": 2.976
+  },
+  "dur_s": 120,
+  "error_rate": 0,
+  "errors": 0,
+  "gen_cpu_cores_avg": 0.6695216122900167,
+  "gen_cpu_cores_max": 0.7242711960589716,
+  "gen_cpus": 16,
+  "gen_cpus_util_pct_avg": 6.110990720309301,
+  "gen_cpus_util_pct_max": 7.614852108244179,
+  "get": {
+    "n": 314054,
+    "p50_ms": 0.519,
+    "p95_ms": 1.887,
+    "p99_ms": 2.729
+  },
+  "ok": 392264,
+  "pin": true,
+  "put": {
+    "n": 78210,
+    "p50_ms": 1.365,
+    "p95_ms": 2.6,
+    "p99_ms": 3.432
+  },
+  "seed": 42,
+  "serializable": false,
+  "sys": "etcd",
+  "t_end_ns": 1794959182587196834,
+  "t_start_ns": 1794959062586229026,
+  "threads": 4,
+  "throughput_ok": 4358.488888888889,
+  "timeouts": 0,
+  "warmup_s": 30,
+  "window_s": 90
+}
